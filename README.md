@@ -6,17 +6,18 @@
 Les buts de ce laboratoire sont :
 - Apprendre à choisir la structure de contrôle adaptée.
 - Travailler avec des chaînes de caractère.
-- Tester le programme d'une autre personne.
+- Choisir les tests à faire pour valider que le programme fonctionne.
 
 ## Cahier des charges
 
 On vous demande de concevoir puis d’écrire un programme qui permet :
-- Transformer une phrase en majuscules.
 - Transformer une phrase en minuscule.
 - Compter le nombre de mots dans une phrase.
 - Trouver la première occurrence d'un caractère dans une phrase.
 - Trier les lettres (voir ci-dessous Bubble).
-- Attention au paragraphe affichage.
+- Attention au paragraphe `affichage`.
+- Ces fonctions doivent être implémentées par vous. L'utilisation de bibliothèque est interdite.
+- Choix des valeurs de test
 
 ## Descriptif
 
@@ -36,7 +37,9 @@ Cherche si le caractère passé en paramètre est présent dans la chaîne.
 
 Retourne la position de la première occurrence du caractère trouvé sinon -1.
 
-Uniquement les caractères `[a-z] [A-Z] et [0-9] et ponctuation` sont autorisés dans cette fonction
+La fonction est sensible à la casse.
+
+Uniquement les caractères `[a-z] [A-Z] et [0-9] et ponctuation` sont autorisés dans cette fonction.
 
 ### Count
 
@@ -56,7 +59,7 @@ Chaque caractère est comparé au caractère suivant et si il est plus grand, il
 à la fin de la chaîne, on recommence tant qu'au moins un caractère est échangé. Vous pouvez imaginer
 que les caractères plus grands peu à peu remontent la chaîne de caractère comme des bulles dans le Champagne.
 
-Uniquement les caractères `[a-z] [A-Z] et [0-9]` sont autorisés dans cette fonction
+Uniquement les caractères `[a-z] [A-Z] et [0-9]` sont autorisés dans cette fonction.
 
 ### Commandes
 
@@ -80,6 +83,9 @@ $ ./string find a "Bonjour Tout le MONDE"
 
 $ ./string find o "Bonjour Tout le MONDE"
 1
+
+$ ./string find O "Bonjour Tout le MONDE"
+17
 
 $ ./string find , "Bonjour, tout le MONDE"
 7
@@ -120,6 +126,14 @@ Le programme retourne les statuts de sortie suivants :
 - `4` Nom de commande inexistant.
 - `5` Argument non valide.
 - ... Vous avez le droit d'ajouter des codes d'erreur si cela vous semble pertinent.
+
+## Tests
+
+Compléter le fichier de test automatique pour valider que votre programme fonctionne.
+
+Attention la liste des tests est importantes dans ce laboratoire, et une partie des points 
+sera attribués en fonction du fichier de test automatique.
+
 
 ## Liste des livrables
 
