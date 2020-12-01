@@ -27,9 +27,7 @@ On vous demande de concevoir puis d’écrire un programme qui permet :
 
 Cette fonction convertit une chaîne de caractère dans sa version minuscule
 
-La ponctuation est autorisée ainsi que les espaces pour cette fonction
-
-Uniquement les caractères `[a-z] [A-Z] et [0-9] et ponctuation` sont autorisés dans cette fonction.
+Uniquement les caractères `[a-z] [A-Z] [0-9] espace et ponctuation` sont autorisés dans cette fonction.
 
 Si des caractères spéciaux sont dans la chaîne, il faut retourner une erreur.
 
@@ -43,9 +41,9 @@ Retourne la position de la première occurrence du caractère trouvé sinon -1.
 
 La fonction est sensible à la casse.
 
-Uniquement les caractères `[a-z] [A-Z] et [0-9] et ponctuation` sont autorisés comme caractère de recherche dans cette fonction.
+Uniquement les caractères `[a-z] [A-Z] [0-9] et ponctuation` sont autorisés comme caractère de recherche.
 
-La chaîne peut contenir n'importe quel caractère.
+`La chaîne` peut contenir n'importe quel caractère.
 
 ### Count
 
@@ -137,7 +135,6 @@ Le programme retourne les statuts de sortie suivants :
 - `4` Argument non valide.
 - `5` Chaîne vide.
 
-
 ## Tests
 
 Compléter le fichier de test automatique pour valider que votre programme fonctionne.
@@ -167,7 +164,7 @@ args :
   La ligne de commande entrée dans le programme
 
 stdout :
-  `"regex": "<val>\\b"` <val> la valeur qui doit être présent pour que le test fonctionne.
+  `"regex": "<val>\\b"` `<val>` la valeur qui doit être présent pour que le test fonctionne.
 
 *Il est possible de tester des regex sur : `https://regex101.com/`*
 
