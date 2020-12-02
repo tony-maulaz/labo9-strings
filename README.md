@@ -93,7 +93,7 @@ $ ./string find o "Bonjour Tout le MONDE"
 1
 
 $ ./string find O "Bonjour Tout le MONDE"
-18
+17
 
 $ ./string find , "Bonjour, tout le MONDE"
 7
