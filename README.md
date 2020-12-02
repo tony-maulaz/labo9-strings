@@ -1,6 +1,6 @@
 # Labo 9 - Strings 
 
-- **Durée**: 5 périodes + travail à la maison
+- **Durée**: 4 périodes + travail à la maison
 
 ## Objectifs
 Les buts de ce laboratoire sont :
