@@ -264,6 +264,7 @@ void main(void){
 Mettre les fichiers suivant dans une archive **`zip`** (**pénalité pour les archives `rar`**) et la placer sur Cyberlearn
 -  Code source
 -  Le fichier exécutable
+-  Le ficher de test
 
 L’archive doit être déposée dans le répertoire "Labo09" de Cyberlearn (à la date
 demandée sur le site INFO1 de Cyberlearn).
