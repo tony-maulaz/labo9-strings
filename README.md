@@ -20,6 +20,8 @@ On vous demande de concevoir puis d’écrire un programme qui permet :
 - Compléter le fichier de test automatique pour garantir que le programme fonctionne. **Vous devez tester tout les cas critiques**
 - Respecter les règles sur le code.
 - Séparer votre code en fonctions.
+- Pour les tests ou autre, utiliser comme caractères spéciaux les accents comme `é è`
+- On ne traite pas les caractères qui sont avec un `\` comme le `\n` ou `\b`
 
 ## Descriptif
 
@@ -80,8 +82,8 @@ Les commandes acceptées seront
 ### Simulation de fonctionnement
 
 ```console
-$ ./string lower "Bonjour Tout le MONDE"
-bonjour tout le monde
+$ ./string lower "Bonjour Tout le MONDE !"
+bonjour tout le monde !
 
 $ ./string count "Bonjour, Tout le   MONDE !"
 4
@@ -132,7 +134,7 @@ Le programme retourne les statuts de sortie suivants :
 - `1` Des caractères interdit sont trouvés dans le text à traîter.
 - `2` Nombre d'argument.
 - `3` Nom de commande inexistant.
-- `4` Argument non valide.
+- `4` Argument non valide (pas nécessaire).
 - `5` Chaîne vide.
 
 ## Tests
