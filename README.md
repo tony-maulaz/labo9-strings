@@ -1,6 +1,7 @@
 # Labo 9 - Strings 
 
 - **Durée**: 4 périodes + travail à la maison
+- Par groupe de 2 pour faire code et test
 
 ## Objectifs
 Les buts de ce laboratoire sont :
@@ -22,6 +23,8 @@ On vous demande de concevoir puis d’écrire un programme qui permet :
 - Séparer votre code en fonctions.
 - Pour les tests ou autre, utiliser comme caractères spéciaux les accents comme `é è`
 - On ne traite pas les caractères qui sont avec un `\` comme le `\n` ou `\b`
+- Implementer une fonction `is_upper`
+- Vous n'avez pas a tester la fonction `bubble` mais elle doit fonctionner dans votre code.
 
 ## Descriptif
 
@@ -53,11 +56,11 @@ La fonction compte le nombre de mots dans un une phrase.
 
 Un mot est composé de tous les caractères qui ne sont pas une ponctuation `ispunct` ou un espace `isspace`.
 
-Plusieurs espaces peuvent être à la suite.
+Plusieurs espaces ou ponctuation peuvent être à la suite.
 
 N'importe quel caractère sont admis dans la chaîne.
 
-Une phrase peut commencer ou se terminer par un espace. Cela ne change pas le nombre de mot.
+Une phrase peut commencer ou se terminer par un espace ou une ponctuation. Cela ne change pas le nombre de mot.
 
 ### Bubble
 
@@ -134,7 +137,6 @@ Le programme retourne les statuts de sortie suivants :
 - `1` Des caractères interdit sont trouvés dans le text à traîter.
 - `2` Nombre d'argument.
 - `3` Nom de commande inexistant.
-- `4` Argument non valide (pas nécessaire).
 - `5` Chaîne vide.
 
 ## Tests
