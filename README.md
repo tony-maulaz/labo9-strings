@@ -24,7 +24,7 @@ On vous demande de concevoir puis d’écrire un programme qui permet :
 - Pour les tests ou autre, utiliser comme caractères spéciaux les accents comme `é è`
 - On ne traite pas les caractères qui sont avec un `\` comme le `\n` ou `\b`
 - Implementer une fonction `is_upper`
-- Vous n'avez pas a tester la fonction `bubble` mais elle doit fonctionner dans votre code.
+- Vous devez aussi tester la fonction `bubble`.
 
 ## Descriptif
 
